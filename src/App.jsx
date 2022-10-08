@@ -1,4 +1,10 @@
 import './App.css'
+import MouseContainer from './components/effect-hook/MouseContainer'
+import UseEffectBasics from './components/effect-hook/UseEffectBasics'
+import UseEffectCleanup from './components/effect-hook/UseEffectCleanup'
+import UseEffectDependecy from './components/effect-hook/UseEffectDependecy'
+import UseEffectIncorrectDependency from './components/effect-hook/UseEffectIncorrectDependency'
+import UseEffectRunOnlyOnce from './components/effect-hook/UseEffectRunOnlyOnce'
 import HookCOunterTwo from './components/state-hook/HookCOunterTwo'
 import StateArray from './components/state-hook/StateArray'
 import StateObject from './components/state-hook/StateObject'
@@ -10,7 +16,15 @@ const App = () => {
       {/* <UseStateHook /> */}
       {/* <HookCOunterTwo /> */}
       {/* <StateObject /> */}
-      <StateArray />
+      {/* <StateArray /> */}
+
+      {/* UseEffect */}
+      {/* <UseEffectBasics /> */}
+      {/* <UseEffectDependecy /> */}
+      {/* <UseEffectRunOnlyOnce /> */}
+      {/* <UseEffectCleanup /> */}
+      {/* <MouseContainer /> */}
+      <UseEffectIncorrectDependency />
     </div>
   )
 }
