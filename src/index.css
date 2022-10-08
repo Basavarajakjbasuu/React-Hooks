@@ -4,3 +4,7 @@
 *::before {
   font-family: 'roboto', sans-serif;
 }
+
+li {
+  list-style: none;
+}

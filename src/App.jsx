@@ -1,4 +1,6 @@
 import './App.css'
+import UseEffectAPI from './components/effect-hook-api/UseEffectAPI'
+import UseEffectIndividualName from './components/effect-hook-api/UseEffectIndividualName'
 import MouseContainer from './components/effect-hook/MouseContainer'
 import UseEffectBasics from './components/effect-hook/UseEffectBasics'
 import UseEffectCleanup from './components/effect-hook/UseEffectCleanup'
@@ -24,7 +26,11 @@ const App = () => {
       {/* <UseEffectRunOnlyOnce /> */}
       {/* <UseEffectCleanup /> */}
       {/* <MouseContainer /> */}
-      <UseEffectIncorrectDependency />
+      {/* <UseEffectIncorrectDependency /> */}
+
+      {/* UseEffect - API call */}
+      {/* <UseEffectAPI /> */}
+      <UseEffectIndividualName />
     </div>
   )
 }
